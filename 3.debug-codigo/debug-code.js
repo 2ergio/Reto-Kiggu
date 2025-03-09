@@ -26,6 +26,7 @@ const tasks = [
     status: "En Curso",
   },
 ];
+
 app.get("/tasks/:id", (req, res) => {
   try {
     const { id } = req.params;

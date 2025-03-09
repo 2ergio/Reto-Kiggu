@@ -224,7 +224,7 @@ const App = () => {
       {/*Modal para actualizar*/}
       <Modal show={showA} onHide={handleCloseA}>
         <Modal.Header className="bg-warning" closeButton>
-          <Modal.Title>Actualizar Tarea</Modal.Title>
+          <Modal.Title>Editar Tarea</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <form action="" className="text-center">
@@ -321,7 +321,7 @@ const App = () => {
                 <Card.Subtitle className="mb-2 text-muted">{task.createdAt.slice(0, 10)}</Card.Subtitle>
                 <Button className="btn-warning " onClick={() =>{
               actualizar(task)
-            }}>Actualizar</Button>
+            }}>Editar</Button>
               </Card.Body>
             </Card>
           ))
