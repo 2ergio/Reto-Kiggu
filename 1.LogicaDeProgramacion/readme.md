@@ -1,0 +1,1 @@
+Para ejecutar los ejercicios, se debe importar el script de js en el index.html
